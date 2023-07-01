@@ -25,16 +25,16 @@ To facilitate communication and interaction throughout the course we will make u
 
 | Date        | Link           | Solutions           |    
 | ------------- |:-------------:|:-------------:|
-| July  11   | <!--[Script]( Lab_sessions/Day_1/Lab_Session_QTA_1.md ) --> | <!--[Exercise solution](Lab_sessions/Day_1/Lab_Session_QTA_1_Answers.md) |-->
-| July  12   | <!--[Script](Lab_sessions/Day_2/Lab_Session_QTA_2.md ) -->| <!--[Exercise solution]( Lab_sessions/Day_2/Lab_Session_QTA_2_Answers.md) |-->
-| July  13   | <!--[Script](Lab_sessions/Day_3/Lab_Session_QTA_3.md ) -->| <!--[Exercise solution](Lab_sessions/Day_3/Lab_Session_QTA_3_Answers.md) |-->
-| July  14   | <!--[Script](Lab_sessions/Day_4/Lab_Session_QTA_4.md ) -->|<!-- [Exercise solution](Lab_sessions/Day_4/Lab_Session_QTA_4_Answers.md) |-->
-| July  15   | <!--[Script](Lab_sessions/Day_5/Lab_Session_QTA_5.md) -->| <!-- [Exercise solution](Lab_sessions/Day_5/Lab_Session_QTA_5_Answers.md) |-->
-| July  18   | <!--[Script](Lab_sessions/Day_6/Lab_Session_QTA_6.md) -->| <!--[Exercise solution](Lab_sessions/Day_6/Lab_Session_QTA_6_Answers.md) |-->
-| July  19   | <!--[Script](Lab_sessions/Day_7/Lab_Session_QTA_7.md) -->| <!--[Exercise solution](Lab_sessions/Day_7/Lab_Session_QTA_7_Answers.md) |-->
-| July  20   | <!--[Script](Lab_sessions/Day_8/Lab_Session_QTA_8.md) -->| <!--[Exercise solution](Lab_sessions/Day_8/Lab_Session_QTA_8_Answers.md) |-->
-| July  21   | <!--[Script](Lab_sessions/Day_9/Lab_Session_QTA_9.md) -->| <!--[Exercise solution](Lab_sessions/Day_9/Lab_Session_QTA_9_Answers.md) |-->
-| July  22   | <!--[Script](Lab_sessions/Day_10/Lab_Session_QTA_10.md) -->| <!--[Exercise solution](Lab_sessions/Day_10/Lab_Session_QTA_10_Answers.md) |-->
+| July  11   | <!--[Script]( Lab_sessions/Day_1/Lab_Session_QTA_1.md ) --> | <!--[Exercise solution](Lab_sessions/Day_1/Lab_Session_QTA_1_Answers.md) --> |
+| July  12   | <!--[Script](Lab_sessions/Day_2/Lab_Session_QTA_2.md ) -->| <!--[Exercise solution]( Lab_sessions/Day_2/Lab_Session_QTA_2_Answers.md) --> |
+| July  13   | <!--[Script](Lab_sessions/Day_3/Lab_Session_QTA_3.md ) -->| <!--[Exercise solution](Lab_sessions/Day_3/Lab_Session_QTA_3_Answers.md) --> |
+| July  14   | <!--[Script](Lab_sessions/Day_4/Lab_Session_QTA_4.md ) -->|<!-- [Exercise solution](Lab_sessions/Day_4/Lab_Session_QTA_4_Answers.md) --> |
+| July  15   | <!--[Script](Lab_sessions/Day_5/Lab_Session_QTA_5.md) -->| <!-- [Exercise solution](Lab_sessions/Day_5/Lab_Session_QTA_5_Answers.md) --> |
+| July  18   | <!--[Script](Lab_sessions/Day_6/Lab_Session_QTA_6.md) -->| <!--[Exercise solution](Lab_sessions/Day_6/Lab_Session_QTA_6_Answers.md) --> |
+| July  19   | <!--[Script](Lab_sessions/Day_7/Lab_Session_QTA_7.md) -->| <!--[Exercise solution](Lab_sessions/Day_7/Lab_Session_QTA_7_Answers.md) --> |
+| July  20   | <!--[Script](Lab_sessions/Day_8/Lab_Session_QTA_8.md) -->| <!--[Exercise solution](Lab_sessions/Day_8/Lab_Session_QTA_8_Answers.md) --> |
+| July  21   | <!--[Script](Lab_sessions/Day_9/Lab_Session_QTA_9.md) -->| <!--[Exercise solution](Lab_sessions/Day_9/Lab_Session_QTA_9_Answers.md) --> |
+| July  22   | <!--[Script](Lab_sessions/Day_10/Lab_Session_QTA_10.md) -->| <!--[Exercise solution](Lab_sessions/Day_10/Lab_Session_QTA_10_Answers.md) --> |
 
 <!-- ## Flash talks
 
