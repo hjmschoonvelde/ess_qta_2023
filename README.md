@@ -98,7 +98,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 -	**Lab**: Categorizing texts using off-the-shelf and home-made dictionaries. 
 
 - **Readings**:
-  -  Rauh, C., 2018. Validating a sentiment dictionary for German political language—a workbench note. Journal of Information Technology & Politics, 15(4): pp. 319-343.
+  -  Rauh, C., (2018). Validating a sentiment dictionary for German political language—a workbench note. Journal of Information Technology & Politics, 15(4): pp. 319-343.
   - S.-O. Proksch, W. Lowe, J. Wäckerle, and S. N. Soroka (2019). Multilingual Sentiment Analysis: A New Approach to Measuring Conflict in Legislative Speeches. Legislative Studies Quarterly 44(1): pp. 97–131.
 
 *Day 6 - July 17*
