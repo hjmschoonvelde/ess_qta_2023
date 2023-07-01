@@ -99,7 +99,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 - **Readings**:
   -  Pennebaker J. & King, L. (1999) Linguistic styles: language use as an individual difference. Journal of Personality and Social Psychology, 77(6), 1296–1312.
-  - Young, L., & Soroka, S. (2012). Affective news: The automated coding of sentiment in political texts. Political Communication, 29(2), 205–231.
+  - S.-O. Proksch, W. Lowe, J. Wäckerle, and S. N. Soroka (2019). “Multilingual Sentiment Analysis: A New Approach to Measuring Conflict in Legislative Speeches”. Legislative Studies Quarterly 44(1): 97–131.
 
 *Day 6 - July 17*
 
@@ -120,7 +120,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 - **Readings**:
 
   - Slapin J. & Proksch S. (2008). A scaling model for estimating time-serial positions from texts. American Journal of Political Science 52, 705–722.
-  - Hjorth, F., Klemmensen, R., Hobolt, S., Hansen, M. E., & Kurrild-Klitgaard, P. (2015). Computers, coders, and voters: Comparing automated methods for estimating party positions. Research & Politics, 2(2).
+  - Watanabe, K., (2021). Latent semantic scaling: A semisupervised text analysis technique for new domains and languages. Communication Methods and Measures, 15(2), pp.81-102.
 
 *Day 8 - July 19*
 
@@ -145,12 +145,13 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 *Day 10 - July 21*
 
--	**Lecture**: Word embeddings. Concluding remarks. 
+-	**Lecture**: Word embeddings. Transformer-based text classification. Concluding remarks. 
 
 -	**Lab**: Training a word embeddings model and inspecting document vectors using **text2vec** (Selivanov _et al_ 2022)
 
 - **Readings**:
   - Rodriguez, P.L. and Spirling, A., (2022). Word embeddings: What works, what doesn’t, and how to tell the difference for applied research. The Journal of Politics, 84(1), pp.101-115.
   - Rodman, E., (2020). A Timely Intervention: Tracking the Changing Meanings of Political Concepts with Word Vectors. Political Analysis, 28(1): pp. 87–111.
+  - Chan, C.H., (2023). grafzahl: fine-tuning Transformers for text data from within R. Computational Communication Research, 5(1), p.76.
 
 
