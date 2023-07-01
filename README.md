@@ -56,8 +56,8 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 -  **Lab**: Working in RStudio Cloud. Working with libraries in R. Working with RMarkdown. 
 
 - **Readings**
-  - Benoit (2020). Text as Data: An Overview. Handbook of Research Methods in Political Science and International Relations. Ed. by L. Curini and R. Franzese. Thousand Oaks: Sage: 461–497.
-  - Grimmer, J., & Stewart, B. M. (2013). Text as data: The promise and pitfalls of automatic content analysis methods for political texts. Political Analysis, 21(3), 267–297.
+  - Benoit (2020). Text as Data: An Overview. Handbook of Research Methods in Political Science and International Relations. Ed. by L. Curini and R. Franzese. Thousand Oaks: Sage: pp. 461–497.
+  - Grimmer, J., & Stewart, B. M. (2013). Text as data: The promise and pitfalls of automatic content analysis methods for political texts. Political Analysis, 21(3), pp. 267–297.
 
 *Day 2 - July 11*
 
@@ -66,7 +66,7 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 -	**Lab**: Working with strings variables. Regular expressions. Cleaning a string vector. 
 
 - **Readings**:
-  -  Welbers, K., Van Atteveldt, W., & Benoit, K. (2017). Text analysis in R. Communication Methods and Measures, 11(4), 245–265.
+  -  Welbers, K., Van Atteveldt, W., & Benoit, K. (2017). Text analysis in R. Communication Methods and Measures, 11(4): pp. 245–265.
   - Baden, C., Pipal, C., Schoonvelde, M. & van der Velden, M.A.G., (2022). Three Gaps in Computational Text Analysis Methods for Social Sciences: A Research Agenda. Communication Methods and Measures, 16(1): pp. 1–18.
 
 
@@ -89,7 +89,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 - **Readings**
   -  Peterson, A. & Spirling, A., (2018). Classification accuracy as a substantive quantity of interest: Measuring polarization in Westminster systems. Political Analysis, 26(1): pp. 120– 128.
-  - Cross, J. & Hermansson, H., (2017). Legislative amendments and informal politics in the European Union: A text reuse approach. European Union Politics, 18(4): 581–602.
+  - Cross, J. & Hermansson, H., (2017). Legislative amendments and informal politics in the European Union: A text reuse approach. European Union Politics, 18(4): pp. 581–602.
 
 *Day 5 - July 14*
 
@@ -98,8 +98,8 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 -	**Lab**: Categorizing texts using off-the-shelf and home-made dictionaries. 
 
 - **Readings**:
-  -  Pennebaker J. & King, L. (1999) Linguistic styles: language use as an individual difference. Journal of Personality and Social Psychology, 77(6), 1296–1312.
-  - S.-O. Proksch, W. Lowe, J. Wäckerle, and S. N. Soroka (2019). “Multilingual Sentiment Analysis: A New Approach to Measuring Conflict in Legislative Speeches”. Legislative Studies Quarterly 44(1): 97–131.
+  -  Rauh, C., 2018. Validating a sentiment dictionary for German political language—a workbench note. Journal of Information Technology & Politics, 15(4): pp. 319-343.
+  - S.-O. Proksch, W. Lowe, J. Wäckerle, and S. N. Soroka (2019). Multilingual Sentiment Analysis: A New Approach to Measuring Conflict in Legislative Speeches. Legislative Studies Quarterly 44(1): pp. 97–131.
 
 *Day 6 - July 17*
 
@@ -109,7 +109,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 - **Readings**:
   -  Daniel Jurafsky and James H. Martin (2020). Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition. 3rd edition: Chapter 4.
-  - Müller, S., (2020). “Media coverage of campaign promises throughout the electoral cycle.” Political Communication: 1–23.
+  - Müller, S., (2020). “Media coverage of campaign promises throughout the electoral cycle.” Political Communication: pp. 1–23.
 
 *Day 7 - July 18*
 
@@ -119,7 +119,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 - **Readings**:
 
-  - Slapin J. & Proksch S. (2008). A scaling model for estimating time-serial positions from texts. American Journal of Political Science 52, 705–722.
+  - Slapin J. & Proksch S. (2008). A scaling model for estimating time-serial positions from texts. American Journal of Political Science 52: pp. 705–722.
   - Watanabe, K., (2021). Latent semantic scaling: A semisupervised text analysis technique for new domains and languages. Communication Methods and Measures, 15(2), pp.81-102.
 
 *Day 8 - July 19*
@@ -129,8 +129,8 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 -	**Lab**: Latent Dirichlet Allocation (LDA) and Structural topics models (STM).
 
 - **Readings**:
-  - Blei, D. M. (2012). Probabilistic topic models. Communications of the ACM, 55(4), 77–84.
-  - Roberts, M et al. (2014). Structural topic models for open-ended survey responses. American Journal of Political Science, 58(4), 1064–1082.
+  - Blei, D. M. (2012). Probabilistic topic models. Communications of the ACM, 55(4), pp. 77–84.
+  - Roberts, M et al. (2014). Structural topic models for open-ended survey responses. American Journal of Political Science, 58(4), pp. 1064–1082.
 
 *Day 9 - July 20*
 
@@ -139,9 +139,9 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 -	**Lab**: Linguistic preprocessing of text. POS tagging and lemmatizing using **udipe** (Wijffels, 2022)
 
 - **Readings**:
-  - Proksch, S.O., Wratil, C. and Wäckerle, J., (2019). Testing the validity of automatic speech recognition for political text analysis. Political Analysis, 1–21
-  - De Vries, E., Schoonvelde, M. & Schumacher, G., (2018). No longer lost in translation: Evidence that Google Translate works for comparative bag-of-words text applications. Political Analysis, 26(4), 417–430.
-  - Casas, A. & Williams, N.W., (2019). Images that matter: Online protests and the mobilizing role of pictures. Political Research Quarterly, 72(2): 360–375.
+  - Proksch, S.O., Wratil, C. and Wäckerle, J., (2019). Testing the validity of automatic speech recognition for political text analysis. Political Analysis, pp. 1–21
+  - De Vries, E., Schoonvelde, M. & Schumacher, G., (2018). No longer lost in translation: Evidence that Google Translate works for comparative bag-of-words text applications. Political Analysis, 26(4), pp. 417–430.
+  - Casas, A. & Williams, N.W., (2019). Images that matter: Online protests and the mobilizing role of pictures. Political Research Quarterly, 72(2): pp. 360–375.
 
 *Day 10 - July 21*
 
@@ -152,6 +152,6 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 - **Readings**:
   - Rodriguez, P.L. and Spirling, A., (2022). Word embeddings: What works, what doesn’t, and how to tell the difference for applied research. The Journal of Politics, 84(1), pp.101-115.
   - Rodman, E., (2020). A Timely Intervention: Tracking the Changing Meanings of Political Concepts with Word Vectors. Political Analysis, 28(1): pp. 87–111.
-  - Chan, C.H., (2023). grafzahl: fine-tuning Transformers for text data from within R. Computational Communication Research, 5(1), p.76.
+  - Chan, C.H., (2023). grafzahl: fine-tuning Transformers for text data from within R. Computational Communication Research, 5(1), p.76-84.
 
 
