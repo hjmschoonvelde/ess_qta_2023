@@ -89,7 +89,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 - **Readings**
   -  Peterson, A. & Spirling, A., (2018). Classification accuracy as a substantive quantity of interest: Measuring polarization in Westminster systems. Political Analysis, 26(1): pp. 120– 128.
-  - Hager, A. and Hilbig, H., (2020). Does public opinion affect political speech?. American Journal of Political Science, 64(4): pp. 921--937.
+  - Hager, A. and Hilbig, H., (2020). Does public opinion affect political speech? American Journal of Political Science, 64(4): pp. 921--937.
 
 *Day 5 - July 14*
 
