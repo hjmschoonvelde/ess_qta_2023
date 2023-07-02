@@ -89,7 +89,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 - **Readings**
   -  Peterson, A. & Spirling, A., (2018). Classification accuracy as a substantive quantity of interest: Measuring polarization in Westminster systems. Political Analysis, 26(1): pp. 120– 128.
-  - Cross, J. & Hermansson, H., (2017). Legislative amendments and informal politics in the European Union: A text reuse approach. European Union Politics, 18(4): pp. 581–602.
+  - Hager, A. and Hilbig, H., (2020). Does public opinion affect political speech?. American Journal of Political Science, 64(4): pp. 921--937.
 
 *Day 5 - July 14*
 
@@ -121,6 +121,7 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
   - Slapin J. & Proksch S. (2008). A scaling model for estimating time-serial positions from texts. American Journal of Political Science 52: pp. 705–722.
   - Watanabe, K., (2021). Latent semantic scaling: A semisupervised text analysis technique for new domains and languages. Communication Methods and Measures, 15(2), pp.81-102.
+  - Schwemmer, C. and Wieczorek, O., (2020). The methodological divide of sociology: Evidence from two decades of journal publications. Sociology, 54(1): pp.3-21.
 
 *Day 8 - July 19*
 
@@ -134,14 +135,14 @@ Quanteda: An R package for the quantitative analysis of textual data. Journal of
 
 *Day 9 - July 20*
 
--	**Lecture**: New developments in data.  Machine translation. Automated speech recognition. Images as data.
+-	**Lecture**: New developments in data.  Multilingualism. Automated speech recognition. Images as data.
 
 -	**Lab**: Linguistic preprocessing of text. POS tagging and lemmatizing using **udipe** (Wijffels, 2022)
 
 - **Readings**:
   - Proksch, S.O., Wratil, C. and Wäckerle, J., (2019). Testing the validity of automatic speech recognition for political text analysis. Political Analysis, pp. 1–21
   - De Vries, E., Schoonvelde, M. & Schumacher, G., (2018). No longer lost in translation: Evidence that Google Translate works for comparative bag-of-words text applications. Political Analysis, 26(4), pp. 417–430.
-  - Casas, A. & Williams, N.W., (2019). Images that matter: Online protests and the mobilizing role of pictures. Political Research Quarterly, 72(2): pp. 360–375.
+  - Schwemmer, C., Unger, S. and Heiberger, R., (2023). 15. Automated image analysis for studying online behaviour. Research Handbook on Digital Sociology, p.278.
 
 *Day 10 - July 21*
 
