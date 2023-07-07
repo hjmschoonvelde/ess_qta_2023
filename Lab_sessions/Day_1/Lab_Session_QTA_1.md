@@ -347,7 +347,7 @@ plot <- ggplot(data = data,
 print(plot)
 ```
 
-<img src="Lab_Session_QTA_1_files/figure-markdown_github/unnamed-chunk-21-1.png" width="\textwidth" />
+<img src="Lab_Session_QTA_1_files/figure-gfm/unnamed-chunk-21-1.png" width="\textwidth" />
 
 Let’s make this plot a bit nicer by adding a theme
 
@@ -359,14 +359,14 @@ plot <- ggplot(data = data, aes(x = name_commissioner,
 print(plot)
 ```
 
-<img src="Lab_Session_QTA_1_files/figure-markdown_github/unnamed-chunk-22-1.png" width="\textwidth" />
+<img src="Lab_Session_QTA_1_files/figure-gfm/unnamed-chunk-22-1.png" width="\textwidth" />
 
 **Question** How would you make this plot nicer? What aspects would you
 change?
 
 ## Practice excercises
 
-1.  Create a character vector of countries (in the same order as
+1)  Create a character vector of countries (in the same order as
     `commissioners`) and call this vector `countries`. Use the
     `data.frame()` function to append this variable to the `data`
     object.
@@ -375,7 +375,7 @@ change?
 #your answer here
 ```
 
-1.  Look up some data on these countries that you find interesting.
+2)  Look up some data on these countries that you find interesting.
     Perhaps their GDP per capita or something else. Plot this
     information using the ggplot code above.
 
