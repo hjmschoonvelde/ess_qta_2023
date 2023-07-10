@@ -25,7 +25,7 @@ To facilitate communication and interaction throughout the course we will make u
 
 | Date        | Link           | Solutions           |    
 | ------------- |:-------------:|:-------------:|
-| July  10   | [.md]( Lab_sessions/Day_1/Lab_Session_QTA_1.md ) [.Rmd]( Lab_sessions/Day_1/Lab_Session_QTA_1.Rmd ) | [.md](Lab_sessions/Day_1/Lab_Session_QTA_1_Answers.md) [.Rmd]((Lab_sessions/Day_1/Lab_Session_QTA_1_Answers.Rmd)) |
+| July  10   | [.md]( Lab_sessions/Day_1/Lab_Session_QTA_1.md ) [.Rmd]( Lab_sessions/Day_1/Lab_Session_QTA_1.Rmd ) | [.md](Lab_sessions/Day_1/Lab_Session_QTA_1_Answers.md) [.Rmd](Lab_sessions/Day_1/Lab_Session_QTA_1_Answers.Rmd) |
 | July  11   | <!--[Script](Lab_sessions/Day_2/Lab_Session_QTA_2.md ) -->| <!--[Exercise solution]( Lab_sessions/Day_2/Lab_Session_QTA_2_Answers.md) --> |
 | July  12   | <!--[Script](Lab_sessions/Day_3/Lab_Session_QTA_3.md ) -->| <!--[Exercise solution](Lab_sessions/Day_3/Lab_Session_QTA_3_Answers.md) --> |
 | July  13   | <!--[Script](Lab_sessions/Day_4/Lab_Session_QTA_4.md ) -->|<!-- [Exercise solution](Lab_sessions/Day_4/Lab_Session_QTA_4_Answers.md) --> |
@@ -63,7 +63,7 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 
 -	**Lecture**: Core assumptions in quantitative text analysis. Representations of text. Preprocessing and feature selection.
 
--	**Lab**: Working with strings variables. Regular expressions. Cleaning a string vector. 
+-	**Lab**: Working with strings variables. Regular expressions. Cleaning a string vector. Creating a document-feature matrix. 
 
 - **Readings**:
   -  Welbers, K., Van Atteveldt, W., & Benoit, K. (2017). Text analysis in R. Communication Methods and Measures, 11(4): pp. 245–265.
@@ -74,7 +74,7 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 
 -	**Lecture**: Advanced text representations. Risks of feature selection with unsupervised models. 
 
--	**Lab**: Importing textual data into R. Introduction to **quanteda** (Benoit _et al._, 2018) Creating a corpus of documents and adding metadata. Creating a document-feature matrix. 
+-	**Lab**: Importing textual data into R. Introduction to **quanteda** (Benoit _et al._, 2018). Inspecting and visualizing a corpus. 
 
 - **Readings**:
   -  Denny, M.J. & Spirling, A., (2018). Text preprocessing for unsupervised learning: Why it matters, when it misleads, and what to do about it. Political Analysis, 26(2): pp.168–189.
