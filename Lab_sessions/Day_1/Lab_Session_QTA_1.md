@@ -152,10 +152,6 @@ libraries, you will need to 1) install them, using the
 `install.packages()` function, and 2) load them using the `library()`
 function.
 
-However, I have installed these libraries already in the current Rstudio
-project, so all you need to do is to load them from memory using the
-`library()` function
-
 ``` r
 library(quanteda)
 library(stringr)
@@ -171,9 +167,8 @@ vector, which we can examine using various functions available to us in
 the various libraries.
 
 But before we get to that, let’s keep things simple first. Let’s say we
-have a `vector` with European Commissioners (this example follows
-Chapter 2 of [*Quantative Politics in R*](http://qpolr.com/basics.html).
-Let’s call this string commissioners.
+have a `vector` with European Commissioners. Let’s call this string
+`commissioners`.
 
 ``` r
 commissioners <- c("Von der Leyen", 
@@ -222,11 +217,10 @@ class(commissioners)
 
     ## [1] "character"
 
-When data is of type character (which text data like media content
-always is), we can use the `stringr()` library for some useful
-functions. For example, in case we want to have the party names in all
-caps, we can use the `str_to_upper()` function from the `stringr`
-library
+When data is of type character, we can use the `stringr()` library for
+some useful functions. For example, in case we want to have the party
+names in all caps, we can use the `str_to_upper()` function from the
+`stringr` library
 
 ``` r
 str_to_upper(commissioners)
@@ -296,12 +290,11 @@ how it works.
 
 ## Dataframes
 
-A different object in `R` is a so called dataframe. A dataframe contains
-multiple vectors which together construct a set variables for cases (a
-dataset) The nice thing about a `dataframe` is that these vectors can
-contain values of different types (character, numeric, logical, factor).
-This is different from other objects, such as a `matrix` which can only
-contain one particular object type.
+A different object in `R` is a so called dataframe. Dataframes are data
+displayed in tabular format. Data Frames can have different types of
+data inside it. While the first column can be character, the second and
+third can be numeric or logical. This is different from other objects,
+such as a `matrix` which can only contain one particular object type.
 
 In order to create a dataframe we can use the \`data.frame()’ function.
 
@@ -367,9 +360,8 @@ change?
 ## Practice excercises
 
 1)  Create a character vector of countries (in the same order as
-    `commissioners`) and call this vector `countries`. Use the
-    `data.frame()` function to append this variable to the `data`
-    object.
+    `commissioners`) and call this vector `countries`. Append this
+    variable to the `data` object as a new variable
 
 ``` r
 #your answer here

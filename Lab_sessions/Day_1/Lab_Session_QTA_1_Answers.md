@@ -1,6 +1,3 @@
-QTA Lab Session 1 – Text as an object in R
-================
-
 ## Introduction
 
 In order to analyze text, we will use the `R` statistical language, a
@@ -233,8 +230,7 @@ library
 str_to_upper(commissioners)
 ```
 
-    ## [1] "VON DER LEYEN" "TIMMERMANS"    "VESTAGER"      "GENTILONI"    
-    ## [5] "BRETON"        "KYRIAKIDES"    "URPILAINEN"
+    ## [1] "VON DER LEYEN" "TIMMERMANS"    "VESTAGER"      "GENTILONI"     "BRETON"        "KYRIAKIDES"    "URPILAINEN"
 
 **Question**: how would you create a vector with all string characters
 lower cased? If you don’t know, google `stringr` and `lowercasing`.
@@ -244,8 +240,7 @@ Figure out want function you would need to use.
 str_to_lower(commissioners)
 ```
 
-    ## [1] "von der leyen" "timmermans"    "vestager"      "gentiloni"    
-    ## [5] "breton"        "kyriakides"    "urpilainen"
+    ## [1] "von der leyen" "timmermans"    "vestager"      "gentiloni"     "breton"        "kyriakides"    "urpilainen"
 
 We can also count the length of the vector elements:
 
@@ -264,15 +259,13 @@ We order the elements of a string vector using the `str_sort()`:
 str_sort(commissioners, decreasing = TRUE)
 ```
 
-    ## [1] "Von der Leyen" "Vestager"      "Urpilainen"    "Timmermans"   
-    ## [5] "Kyriakides"    "Gentiloni"     "Breton"
+    ## [1] "Von der Leyen" "Vestager"      "Urpilainen"    "Timmermans"    "Kyriakides"    "Gentiloni"     "Breton"
 
 ``` r
 str_sort(commissioners, decreasing = FALSE)
 ```
 
-    ## [1] "Breton"        "Gentiloni"     "Kyriakides"    "Timmermans"   
-    ## [5] "Urpilainen"    "Vestager"      "Von der Leyen"
+    ## [1] "Breton"        "Gentiloni"     "Kyriakides"    "Timmermans"    "Urpilainen"    "Vestager"      "Von der Leyen"
 
 We can also detect the presence or absence of a pattern in a string.
 This returns a logical vector for which elements are TRUE when a pattern
@@ -303,8 +296,7 @@ how it works.
 str_replace(commissioners, "mm", "xx")
 ```
 
-    ## [1] "Von der Leyen" "Tixxermans"    "Vestager"      "Gentiloni"    
-    ## [5] "Breton"        "Kyriakides"    "Urpilainen"
+    ## [1] "Von der Leyen" "Tixxermans"    "Vestager"      "Gentiloni"     "Breton"        "Kyriakides"    "Urpilainen"
 
 ## Dataframes
 
@@ -379,13 +371,24 @@ change?
 ## Practice excercises
 
 1)  Create a character vector of countries (in the same order as
-    `commissioners`) and call this vector `countries`. Use the
-    `data.frame()` function to append this variable to the `data`
-    object.
+    `commissioners`) and call this vector `countries`. Append this
+    variable to the `data` object as a new variable
 
 ``` r
-#your answer here
+countries <- c("Germany", "Netherlands", "Denmark", "Italy", "France", "Greece", "Finland")
+  
+data <- cbind(data, countries)
+
+head(data)
 ```
+
+    ##   name_commissioner age_commissioner   countries
+    ## 1     Von der Leyen               63     Germany
+    ## 2        Timmermans               60 Netherlands
+    ## 3          Vestager               53     Denmark
+    ## 4         Gentiloni               67       Italy
+    ## 5            Breton               67      France
+    ## 6        Kyriakides               65      Greece
 
 2)  Look up some data on these countries that you find interesting.
     Perhaps their GDP per capita or something else. Plot this
