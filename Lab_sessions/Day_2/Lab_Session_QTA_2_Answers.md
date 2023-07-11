@@ -1,6 +1,3 @@
-QTA Day 2: String operations and inspecting a corpus
-================
-
 ## String operations
 
 `R` stores text as a `string` or `character` vector. It is important to
@@ -251,28 +248,17 @@ summary(data_corpus_inaugural,  n = 10)
 
     ## Corpus consisting of 59 documents, showing 10 documents:
     ## 
-    ##             Text Types Tokens Sentences Year  President   FirstName
-    ##  1789-Washington   625   1537        23 1789 Washington      George
-    ##  1793-Washington    96    147         4 1793 Washington      George
-    ##       1797-Adams   826   2577        37 1797      Adams        John
-    ##   1801-Jefferson   717   1923        41 1801  Jefferson      Thomas
-    ##   1805-Jefferson   804   2380        45 1805  Jefferson      Thomas
-    ##     1809-Madison   535   1261        21 1809    Madison       James
-    ##     1813-Madison   541   1302        33 1813    Madison       James
-    ##      1817-Monroe  1040   3677       121 1817     Monroe       James
-    ##      1821-Monroe  1259   4886       131 1821     Monroe       James
-    ##       1825-Adams  1003   3147        74 1825      Adams John Quincy
-    ##                  Party
-    ##                   none
-    ##                   none
-    ##             Federalist
-    ##  Democratic-Republican
-    ##  Democratic-Republican
-    ##  Democratic-Republican
-    ##  Democratic-Republican
-    ##  Democratic-Republican
-    ##  Democratic-Republican
-    ##  Democratic-Republican
+    ##             Text Types Tokens Sentences Year  President   FirstName                 Party
+    ##  1789-Washington   625   1537        23 1789 Washington      George                  none
+    ##  1793-Washington    96    147         4 1793 Washington      George                  none
+    ##       1797-Adams   826   2577        37 1797      Adams        John            Federalist
+    ##   1801-Jefferson   717   1923        41 1801  Jefferson      Thomas Democratic-Republican
+    ##   1805-Jefferson   804   2380        45 1805  Jefferson      Thomas Democratic-Republican
+    ##     1809-Madison   535   1261        21 1809    Madison       James Democratic-Republican
+    ##     1813-Madison   541   1302        33 1813    Madison       James Democratic-Republican
+    ##      1817-Monroe  1040   3677       121 1817     Monroe       James Democratic-Republican
+    ##      1821-Monroe  1259   4886       131 1821     Monroe       James Democratic-Republican
+    ##       1825-Adams  1003   3147        74 1825      Adams John Quincy Democratic-Republican
 
 Let’s make a copy of this corpus. We’ll save it in our working
 environment as an object called `speeches_inaugural`
@@ -280,6 +266,16 @@ environment as an object called `speeches_inaugural`
 ``` r
 speeches_inaugural <- data_corpus_inaugural
 ```
+
+We can inspect the content of the first inaugural speech using
+`as.character()` function:
+
+``` r
+as.character(speeches_inaugural)[1]
+```
+
+    ##                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             1789-Washington 
+    ## "Fellow-Citizens of the Senate and of the House of Representatives:\n\nAmong the vicissitudes incident to life no event could have filled me with greater anxieties than that of which the notification was transmitted by your order, and received on the 14th day of the present month. On the one hand, I was summoned by my Country, whose voice I can never hear but with veneration and love, from a retreat which I had chosen with the fondest predilection, and, in my flattering hopes, with an immutable decision, as the asylum of my declining years  -  a retreat which was rendered every day more necessary as well as more dear to me by the addition of habit to inclination, and of frequent interruptions in my health to the gradual waste committed on it by time. On the other hand, the magnitude and difficulty of the trust to which the voice of my country called me, being sufficient to awaken in the wisest and most experienced of her citizens a distrustful scrutiny into his qualifications, could not but overwhelm with despondence one who (inheriting inferior endowments from nature and unpracticed in the duties of civil administration) ought to be peculiarly conscious of his own deficiencies. In this conflict of emotions all I dare aver is that it has been my faithful study to collect my duty from a just appreciation of every circumstance by which it might be affected. All I dare hope is that if, in executing this task, I have been too much swayed by a grateful remembrance of former instances, or by an affectionate sensibility to this transcendent proof of the confidence of my fellow citizens, and have thence too little consulted my incapacity as well as disinclination for the weighty and untried cares before me, my error will be palliated by the motives which mislead me, and its consequences be judged by my country with some share of the partiality in which they originated.\n\nSuch being the impressions under which I have, in obedience to the public summons, repaired to the present station, it would be peculiarly improper to omit in this first official act my fervent supplications to that Almighty Being who rules over the universe, who presides in the councils of nations, and whose providential aids can supply every human defect, that His benediction may consecrate to the liberties and happiness of the people of the United States a Government instituted by themselves for these essential purposes, and may enable every instrument employed in its administration to execute with success the functions allotted to his charge. In tendering this homage to the Great Author of every public and private good, I assure myself that it expresses your sentiments not less than my own, nor those of my fellow citizens at large less than either. No people can be bound to acknowledge and adore the Invisible Hand which conducts the affairs of men more than those of the United States. Every step by which they have advanced to the character of an independent nation seems to have been distinguished by some token of providential agency; and in the important revolution just accomplished in the system of their united government the tranquil deliberations and voluntary consent of so many distinct communities from which the event has resulted can not be compared with the means by which most governments have been established without some return of pious gratitude, along with an humble anticipation of the future blessings which the past seem to presage. These reflections, arising out of the present crisis, have forced themselves too strongly on my mind to be suppressed. You will join with me, I trust, in thinking that there are none under the influence of which the proceedings of a new and free government can more auspiciously commence.\n\nBy the article establishing the executive department it is made the duty of the President \"to recommend to your consideration such measures as he shall judge necessary and expedient.\" The circumstances under which I now meet you will acquit me from entering into that subject further than to refer to the great constitutional charter under which you are assembled, and which, in defining your powers, designates the objects to which your attention is to be given. It will be more consistent with those circumstances, and far more congenial with the feelings which actuate me, to substitute, in place of a recommendation of particular measures, the tribute that is due to the talents, the rectitude, and the patriotism which adorn the characters selected to devise and adopt them. In these honorable qualifications I behold the surest pledges that as on one side no local prejudices or attachments, no separate views nor party animosities, will misdirect the comprehensive and equal eye which ought to watch over this great assemblage of communities and interests, so, on another, that the foundation of our national policy will be laid in the pure and immutable principles of private morality, and the preeminence of free government be exemplified by all the attributes which can win the affections of its citizens and command the respect of the world. I dwell on this prospect with every satisfaction which an ardent love for my country can inspire, since there is no truth more thoroughly established than that there exists in the economy and course of nature an indissoluble union between virtue and happiness; between duty and advantage; between the genuine maxims of an honest and magnanimous policy and the solid rewards of public prosperity and felicity; since we ought to be no less persuaded that the propitious smiles of Heaven can never be expected on a nation that disregards the eternal rules of order and right which Heaven itself has ordained; and since the preservation of the sacred fire of liberty and the destiny of the republican model of government are justly considered, perhaps, as deeply, as finally, staked on the experiment entrusted to the hands of the American people.\n\nBesides the ordinary objects submitted to your care, it will remain with your judgment to decide how far an exercise of the occasional power delegated by the fifth article of the Constitution is rendered expedient at the present juncture by the nature of objections which have been urged against the system, or by the degree of inquietude which has given birth to them. Instead of undertaking particular recommendations on this subject, in which I could be guided by no lights derived from official opportunities, I shall again give way to my entire confidence in your discernment and pursuit of the public good; for I assure myself that whilst you carefully avoid every alteration which might endanger the benefits of an united and effective government, or which ought to await the future lessons of experience, a reverence for the characteristic rights of freemen and a regard for the public harmony will sufficiently influence your deliberations on the question how far the former can be impregnably fortified or the latter be safely and advantageously promoted.\n\nTo the foregoing observations I have one to add, which will be most properly addressed to the House of Representatives. It concerns myself, and will therefore be as brief as possible. When I was first honored with a call into the service of my country, then on the eve of an arduous struggle for its liberties, the light in which I contemplated my duty required that I should renounce every pecuniary compensation. From this resolution I have in no instance departed; and being still under the impressions which produced it, I must decline as inapplicable to myself any share in the personal emoluments which may be indispensably included in a permanent provision for the executive department, and must accordingly pray that the pecuniary estimates for the station in which I am placed may during my continuance in it be limited to such actual expenditures as the public good may be thought to require.\n\nHaving thus imparted to you my sentiments as they have been awakened by the occasion which brings us together, I shall take my present leave; but not without resorting once more to the benign Parent of the Human Race in humble supplication that, since He has been pleased to favor the American people with opportunities for deliberating in perfect tranquillity, and dispositions for deciding with unparalleled unanimity on a form of government for the security of their union and the advancement of their happiness, so His divine blessing may be equally conspicuous in the enlarged views, the temperate consultations, and the wise measures on which the success of this Government must depend. "
 
 Metadata such as year, speaker, etc. are stored in a corpus object as
 *docvars*, and can be accessed like so:
@@ -289,20 +285,17 @@ Metadata such as year, speaker, etc. are stored in a corpus object as
 docvars(speeches_inaugural, "Year")
 ```
 
-    ##  [1] 1789 1793 1797 1801 1805 1809 1813 1817 1821 1825 1829 1833 1837 1841 1845
-    ## [16] 1849 1853 1857 1861 1865 1869 1873 1877 1881 1885 1889 1893 1897 1901 1905
-    ## [31] 1909 1913 1917 1921 1925 1929 1933 1937 1941 1945 1949 1953 1957 1961 1965
-    ## [46] 1969 1973 1977 1981 1985 1989 1993 1997 2001 2005 2009 2013 2017 2021
+    ##  [1] 1789 1793 1797 1801 1805 1809 1813 1817 1821 1825 1829 1833 1837 1841 1845 1849 1853 1857 1861 1865 1869 1873 1877 1881 1885 1889 1893 1897 1901
+    ## [30] 1905 1909 1913 1917 1921 1925 1929 1933 1937 1941 1945 1949 1953 1957 1961 1965 1969 1973 1977 1981 1985 1989 1993 1997 2001 2005 2009 2013 2017
+    ## [59] 2021
 
 ``` r
 #party
 head(docvars(speeches_inaugural, "Party"), 10)
 ```
 
-    ##  [1] none                  none                  Federalist           
-    ##  [4] Democratic-Republican Democratic-Republican Democratic-Republican
-    ##  [7] Democratic-Republican Democratic-Republican Democratic-Republican
-    ## [10] Democratic-Republican
+    ##  [1] none                  none                  Federalist            Democratic-Republican Democratic-Republican Democratic-Republican
+    ##  [7] Democratic-Republican Democratic-Republican Democratic-Republican Democratic-Republican
     ## Levels: Democratic Democratic-Republican Federalist none Republican Whig
 
 ``` r
@@ -311,10 +304,8 @@ table(docvars(speeches_inaugural, "Party"))
 ```
 
     ## 
-    ##            Democratic Democratic-Republican            Federalist 
-    ##                    22                     7                     1 
-    ##                  none            Republican                  Whig 
-    ##                     2                    24                     3
+    ##            Democratic Democratic-Republican            Federalist                  none            Republican                  Whig 
+    ##                    22                     7                     1                     2                    24                     3
 
 Subsetting a corpus is easy using the `corpus_subset()` function. Note
 the `==` operator here. In `R` `=` denotes an assignment operator,
@@ -377,8 +368,7 @@ Let’s see how often each President referred to the United States
 str_count(as.character(speeches_inaugural), "United States of America")
 ```
 
-    ##  [1] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-    ## [39] 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 2 1
+    ##  [1] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 2 1
 
 Using the `kwic()` function, we can inspect the context in which the
 United States is used in these speeches:
@@ -390,20 +380,13 @@ kwic(tokens_speeches_inaugural,
   tail()
 ```
 
-    ## Keyword-in-context with 6 matches.                                                                       
-    ##   [2005-Bush, 2308]          God bless you, and may He watch over the |
-    ##  [2009-Obama, 2685]             you. God bless you. And God bless the |
-    ##  [2013-Obama, 2313]     God bless you, and may He forever bless these |
-    ##   [2017-Trump, 347]         . This is your celebration. And this, the |
-    ##  [2017-Trump, 1140] of our politics will be a total allegiance to the |
-    ##  [2021-Biden, 1051]            . And, we must meet this moment as the |
-    ##                                                                         
-    ##  United_States_of_America | .                                           
-    ##  United_States_of_America | .                                           
-    ##  United_States_of_America | .                                           
-    ##  United_States_of_America | , is your country. What truly matters is not
-    ##  United_States_of_America | , and through our loyalty to our country, we
-    ##  United_States_of_America | . If we do that, I guarantee you,
+    ## Keyword-in-context with 6 matches.                                                                                                                                               
+    ##   [2005-Bush, 2308]          God bless you, and may He watch over the | United_States_of_America | .                                           
+    ##  [2009-Obama, 2685]             you. God bless you. And God bless the | United_States_of_America | .                                           
+    ##  [2013-Obama, 2313]     God bless you, and may He forever bless these | United_States_of_America | .                                           
+    ##   [2017-Trump, 347]         . This is your celebration. And this, the | United_States_of_America | , is your country. What truly matters is not
+    ##  [2017-Trump, 1140] of our politics will be a total allegiance to the | United_States_of_America | , and through our loyalty to our country, we
+    ##  [2021-Biden, 1051]            . And, we must meet this moment as the | United_States_of_America | . If we do that, I guarantee you,
 
 ## Excercise: inspecting a corpus
 
@@ -429,12 +412,34 @@ ndoc(sentences_inaug_since1990)
 
     ## [1] 890
 
+Inspect how often references to the pursuit of happiness occur in this
+corpus:
+
+``` r
+str_count(as.character(sentences_inaug_since1990), "pursuit of happiness")
+```
+
+    ##   [1] 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ##  [73] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ## [145] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ## [217] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ## [289] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ## [361] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ## [433] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+    ## [505] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+    ## [577] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ## [649] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ## [721] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ## [793] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    ## [865] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
 Tokenize the sentence-level text corpus. Make sure that references to
-the Supreme Court are included as a multiword expression.
+the `Supreme Court` and `pursuit of happiness` are included as multiword
+expressions.
 
 ``` r
 tokens_inaug_since1990 <- tokens(sentences_inaug_since1990) %>%
-  tokens_compound(phrase("Supreme Court"))
+  tokens_compound(phrase(c("Supreme Court", "pursuit of happiness")))
 ```
 
 Use corpus_reshape() and change the unit of `speeches_inaug_since1990`
@@ -511,7 +516,7 @@ ggplot(data, aes(animal, number)) +
   geom_col() + theme_minimal()
 ```
 
-<img src="Lab_Session_QTA_2_Answers_files/figure-gfm/unnamed-chunk-28-1.png" width="\textwidth" />
+<img src="Lab_Session_QTA_2_Answers_files/figure-gfm/unnamed-chunk-30-1.png" width="\textwidth" />
 
 [^1]: `R` is open source with different developers working on similar
     issues, as a result of which there can be multiple packages that do

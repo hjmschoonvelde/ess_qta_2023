@@ -15,7 +15,7 @@ To facilitate communication and interaction throughout the course we will make u
 | Date        | Slides           |  Date        | Slides           |
 | ------------- |:-------------:| ------------- |:-------------:|
 | July  10   | [Link]( Slides/Slides_QTA_1.pdf )| July  17   | <!--[Link]( Slides/Slides_QTA_6.pdf) --> |
-| July  11   | <!--[Link](Slides/Slides_QTA_2.pdf ) -->| July  18   | <!--[Link](Slides/Slides_QTA_7.pdf) --> |
+| July  11   | [Link](Slides/Slides_QTA_2.pdf )| July  18   | <!--[Link](Slides/Slides_QTA_7.pdf) --> |
 | July  12   | <!--[Link](Slides/Slides_QTA_3.pdf ) --> | July  19   | <!--[Link](Slides/Slides_QTA_8.pdf) --> |
 | July  13   | <!--[Link](Slides/Slides_QTA_4.pdf)  -->| July  20   |<!--[Link](Slides/Slides_QTA_9.pdf) --> |
 | July  14   | <!--[Link](Slides/Slides_QTA_5.pdf) -->| July  21   | <!--[Link](Slides/Slides_QTA_10.pdf)  --> |
@@ -26,7 +26,7 @@ To facilitate communication and interaction throughout the course we will make u
 | Date        | Link           | Solutions           |    
 | ------------- |:-------------:|:-------------:|
 | July  10   | [.md]( Lab_sessions/Day_1/Lab_Session_QTA_1.md ) [.Rmd]( Lab_sessions/Day_1/Lab_Session_QTA_1.Rmd ) | [.md](Lab_sessions/Day_1/Lab_Session_QTA_1_Answers.md) [.Rmd](Lab_sessions/Day_1/Lab_Session_QTA_1_Answers.Rmd) |
-| July  11   | <!--[Script](Lab_sessions/Day_2/Lab_Session_QTA_2.md ) -->| <!--[Exercise solution]( Lab_sessions/Day_2/Lab_Session_QTA_2_Answers.md) --> |
+| July  11   | [.md](Lab_sessions/Day_2/Lab_Session_QTA_2.md ) [.Rmd](Lab_sessions/Day_2/Lab_Session_QTA_2.Rmd ) | <!--[Exercise solution]( Lab_sessions/Day_2/Lab_Session_QTA_2_Answers.md) --> |
 | July  12   | <!--[Script](Lab_sessions/Day_3/Lab_Session_QTA_3.md ) -->| <!--[Exercise solution](Lab_sessions/Day_3/Lab_Session_QTA_3_Answers.md) --> |
 | July  13   | <!--[Script](Lab_sessions/Day_4/Lab_Session_QTA_4.md ) -->|<!-- [Exercise solution](Lab_sessions/Day_4/Lab_Session_QTA_4_Answers.md) --> |
 | July  14   | <!--[Script](Lab_sessions/Day_5/Lab_Session_QTA_5.md) -->| <!-- [Exercise solution](Lab_sessions/Day_5/Lab_Session_QTA_5_Answers.md) --> |
@@ -68,7 +68,6 @@ For some code and ideas in the lab scripts, I made use of materials by Jos Elkin
 - **Readings**:
   -  Welbers, K., Van Atteveldt, W., & Benoit, K. (2017). Text analysis in R. Communication Methods and Measures, 11(4): pp. 245–265.
   - Baden, C., Pipal, C., Schoonvelde, M. & van der Velden, M.A.G., (2022). Three Gaps in Computational Text Analysis Methods for Social Sciences: A Research Agenda. Communication Methods and Measures, 16(1): pp. 1–18.
-
 
 *Day 3 - July 12*
 
